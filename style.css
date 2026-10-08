@@ -1,0 +1,77 @@
+/* إعدادات عامة لتصفير المسافات */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* تنسيق الخلفية لتشمل الصورة */
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('1.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+/* صندوق تسجيل الدخول */
+.login-container {
+    background: rgba(255, 255, 255, 0.9); /* خلفية بيضاء شفافة قليلاً */
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 15px 25px rgba(0,0,0,0.2);
+    width: 350px;
+    text-align: center;
+}
+
+h2 {
+    margin-bottom: 20px;
+    color: #333;
+}
+
+/* تنسيق حقول الإدخال */
+.input-group {
+    margin-bottom: 20px;
+}
+
+.input-group input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    outline: none;
+}
+
+/* تنسيق الزر */
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: 0.3s;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+.message {
+    margin-top: 15px;
+    font-size: 14px;
+}
+
+
+
+
+
+
+
+
+
